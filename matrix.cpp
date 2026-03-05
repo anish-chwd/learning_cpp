@@ -1,27 +1,12 @@
 #include <iostream>
 #include <string>
+#include <vector>
 using namespace std;
 int main(){
-    string cars[4] = {"Volvo", "BMW", "Ford", "Toyota"};
-    int num[] = {0,1,2,3,4,5,6,7,8,9};
-    for (int i = 0; i < 10; i++)
-    {
-        cout << num[i];
-        if (i < 4)
-        {
-            cout << " " << cars[i] ;
-        }
-        cout << endl;
-    }
-
-    cars[0] = "Audi";
-    cars [3] = "TATA";
-    for (int i = 0; i < 4; i++)
-    {
-        cout << cars[i] << endl ;
-    }
-    
-    
-
+    int numbers[5];
+    numbers[0] = 10;
+    numbers[4] = 50;
+    cout << numbers[0] << endl;
+    cout << numbers[4] << endl;
     return 0;
 }
