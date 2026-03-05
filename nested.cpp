@@ -11,7 +11,7 @@ int main(){
         :(age == legal_voting_age) ? "exactly 18 eligible"
         :"NOT eligible";
     cout << out ;
-    
+     
     return 0;
 
 }
