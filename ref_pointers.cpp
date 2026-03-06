@@ -7,6 +7,10 @@ int main(){
     string *ptr = &food;
 
     cout << food << endl << &food << endl << ptr <<endl << *ptr <<endl;
+    *ptr = "burger";
+    cout << "************" << endl <<food << endl << &food << endl << ptr <<endl << *ptr <<endl;
+
+
 
     return 0;
 }
