@@ -1,5 +1,5 @@
 # Ignore all Windows executables
 *.exe
 
-# Ignore VS Code temporary runner file
+# Ignore codeRunner temporary runner file
 tempCodeRunnerFile.cpp
