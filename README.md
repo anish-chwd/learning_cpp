@@ -45,6 +45,7 @@ This repository includes practice programs for:
 | `oop.cpp`                      | Object oriented programming    |
 | `test_case.cpp`                | Testing programs               |
 | `try.cpp`                      | Misc experiments               |
+| `friend_class.cpp`             | friend keyword in classes      |
 
 ---
 
