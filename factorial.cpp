@@ -1,13 +1,13 @@
 #include "factorial.h"
-int factorial(int count){
+
+int factorial(int n){
     int ans;
     ans = 1;
-    for (count; count > 0; count--)
+    for (n; n > 0; n--)
     {
-        ans = ans * count ;
+        ans = ans * n ;
         //cout << count << "::" << ans << endl ;
 
     }
     return ans;
-    
 }
