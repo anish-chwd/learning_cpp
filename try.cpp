@@ -3,8 +3,8 @@
 using namespace std;
 
 int main(){
-    string first_name = "anish";
-    string last_name = "chowdhury";
+    string first_name = "jane";
+    string last_name = "doe";
     string full_name = first_name.append(last_name);
     cout << full_name << endl;
     cout << full_name.length()<<endl;
