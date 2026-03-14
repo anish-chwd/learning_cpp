@@ -17,15 +17,15 @@ int check_factorial(int n)
 int main(){
 
     
-    for (int i = 0; i < 20; i++)
+    for (int i = 0; i <= 20; i++)
     {
         if (factorial(i) == check_factorial(i))
         {
-            cout << "\033[32mTEST CASE : \033[0m"<< i << "\033[32m :: PASSED\033[0m";
+            cout << "\033[32mTEST CASE : \033[0m"<< i << "\033[32m :: PASSED\033[0m" << endl;
         }
         else if (factorial(i) != check_factorial(i))
         {
-            cout<< "\033[31mTEST CASE : \033[0m"<< i << "\033[31m :: FAILED\033[0m";
+            cout<< "\033[31mTEST CASE : \033[0m"<< i << "\033[31m :: FAILED\033[0m" << endl;
         }
         
         
